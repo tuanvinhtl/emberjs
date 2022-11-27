@@ -1,0 +1,69 @@
+{
+    "data": [
+        {
+            "name": "SIAM TOPAZ",
+            "imo": "8507339",
+            "call_sign": "5IM610",
+            "position": {
+                "type": "Point",
+                "coordinates": [
+                    34.147767,
+                    15.032079
+                ]
+            },
+            "updated_at": "2021-05-10T08: 21: 00.000000Z"
+        },
+        {
+            "name": "SUHAR",
+            "imo": "8509399",
+            "call_sign": "C6SK6",
+            "position": {
+                "type": "Point",
+                "coordinates": [
+                    103.923337,
+                    1.258862
+                ]
+            },
+            "updated_at": "2021-05-10T08: 21: 00.000000Z"
+        },
+        {
+            "name": "CEMSKY",
+            "imo": "9000211",
+            "call_sign": "P3WL9",
+            "position": {
+                "type": "Point",
+                "coordinates": [
+                    107.850472,
+                    -1.452715
+                ]
+            },
+            "updated_at": "2021-05-10T08: 21: 00.000000Z"
+        },
+        {
+            "name": "MY THINH",
+            "imo": "8915304",
+            "call_sign": "3WHR",
+            "position": {
+                "type": "Point",
+                "coordinates": [
+                    50.226738,
+                    26.642935
+                ]
+            },
+            "updated_at": "2021-05-10T08: 21: 00.000000Z"
+        },
+        {
+            "name": "CEMSTAR",
+            "imo": "8903090",
+            "call_sign": "DIDS",
+            "position": {
+                "type": "Point",
+                "coordinates": [
+                    101.327888,
+                    12.088263
+                ]
+            },
+            "updated_at": "2021-05-10T08: 21: 00.000000Z"
+        }
+    ]
+}

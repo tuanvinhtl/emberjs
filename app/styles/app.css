@@ -1,0 +1,57 @@
+/* @import url("../../public/icons/fontawesome.css"); */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('/fonts/Roboto/Roboto-Regular.ttf');
+}
+
+:root {
+  --primary: #3fafd7;
+  --p—light: #7ae1ff;
+  --p—dark: #0080a5;
+  --secondary: #e0f7fa;
+  --s—light: #ffffff;
+  --s—dark: #aec4c7;
+  --p-text: #000000;
+  --s-text: #000000;
+}
+.height-max {
+  height: calc(100vh - 100px);
+}
+.vessel:hover{
+  @apply cursor-pointer bg-p—dark text-s—light;
+  @apply ease-in-out duration-300;
+}
+.vessel.actived{
+  @apply border border-solid border-primary;
+  @apply ease-in-out duration-300;
+}
+.nav-item {
+  @apply flex items-center px-[0.6rem] h-full text-sm;
+  @apply ease-in-out duration-300;
+}
+.nav-item:hover {
+  @apply cursor-pointer bg-p—dark;
+}
+.nav-item.active {
+  @apply bg-p—dark;
+}
+.main {
+  @apply height-max;
+}
+.card-item {
+  @apply shadow-4xl w-full h-full ml-2 mt-2 p-[5px];
+}
+.card-item:last-child {
+  @apply mr-2;
+}
+.main-item{
+  @apply shadow-4xl w-full h-full ml-2 mt-2 p-[5px];
+}
+.ember-google-map {
+  @apply h-full w-full;
+}

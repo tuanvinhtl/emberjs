@@ -1,0 +1,20 @@
+<div
+  class='vessel item flex text-xs mb-2 p-1 {{@class}}'
+  {{on 'click' (fn @onVessel @vessel)}}
+>
+  <div class='flex-[1] flex flex-col'>
+    <div>{{this.vessel.name}}</div>
+    <div>{{this.vessel.imo}}</div>
+    <div>{{this.vessel.updated_at}}</div>
+  </div>
+  <div class='flex-[1] flex flex-col'>
+    <GMap
+      @disableDefaultUI={{true}}
+      @zoomControl={{false}}
+      @lat={{this.lat}}
+      @lng={{this.lng}}
+      @zoom={{5}}
+      as |map|
+    />
+  </div>
+</div>

@@ -16,6 +16,7 @@ module.exports = function (environment) {
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created
+      GOOGLE_API_KEY: String,
     },
   };
 
@@ -25,6 +26,7 @@ module.exports = function (environment) {
     // ENV.APP.LOG_TRANSITIONS = true;
     // ENV.APP.LOG_TRANSITIONS_INTERNAL = true;
     // ENV.APP.LOG_VIEW_LOOKUPS = true;
+    ENV.APP.GOOGLE_API_KEY = 'AIzaSyAcXHD2gWgjpCyFgR-rdiDKxuB-dDRzBaA';
   }
 
   if (environment === 'test') {
@@ -37,11 +39,15 @@ module.exports = function (environment) {
 
     ENV.APP.rootElement = '#ember-testing';
     ENV.APP.autoboot = false;
+    ENV.APP.GOOGLE_API_KEY = 'AIzaSyAcXHD2gWgjpCyFgR-rdiDKxuB-dDRzBaA';
   }
 
   if (environment === 'production') {
     // here you can enable a production-specific feature
+    ENV.APP.GOOGLE_API_KEY = 'AIzaSyAcXHD2gWgjpCyFgR-rdiDKxuB-dDRzBaA';
   }
-
+  ENV['ember-google-maps'] = {
+    key: 'AIzaSyAcXHD2gWgjpCyFgR-rdiDKxuB-dDRzBaA',
+  };
   return ENV;
 };

@@ -1,0 +1,9 @@
+<div class='list-item'>
+  {{#each this.vessels as |vessel|}}
+    <ListView::Item
+      @vessel={{vessel}}
+      @onVessel={{this.onVessel}}
+      @class={{if (this.compare vessel this.selected) 'actived'}}
+    />
+  {{/each}}
+</div>
