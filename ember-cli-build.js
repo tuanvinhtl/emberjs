@@ -23,9 +23,6 @@ module.exports = function (defaults) {
         ],
       },
     },
-    minifyCSS: {
-      options: { processImport: true },
-    },
   });
   return app.toTree();
 };

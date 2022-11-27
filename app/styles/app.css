@@ -1,4 +1,4 @@
-/* @import url("../../public/icons/fontawesome.css"); */
+@import url("/icons/fontawesome.css");
 
 @tailwind base;
 @tailwind components;
